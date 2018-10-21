@@ -35,7 +35,7 @@ def matching(input_string, obj_sting):
 
 
 
-res = matching("aalex", "alex")
+res = matching("aalex", "alexx")
 print(res)
 
 res2 = matching("lleeelee", "leelee")
