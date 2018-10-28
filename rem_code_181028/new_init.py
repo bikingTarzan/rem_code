@@ -16,8 +16,6 @@ class Student(Person):
         print("is student")
         print(self.name)
 
-
-
 if __name__ == "__main__":
     p = Person("p")
     s = Student("s")
