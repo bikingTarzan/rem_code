@@ -17,6 +17,7 @@ class Student(Person):
         print(self.name)
 
 
+
 if __name__ == "__main__":
     p = Person("p")
     s = Student("s")
