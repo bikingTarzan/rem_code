@@ -13,7 +13,6 @@ class Student(metaclass=Person):
     def run(self):
         print("run")
 
-
 s = Student()
 s.run()
 
