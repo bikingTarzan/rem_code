@@ -6,7 +6,6 @@ import multiprocessing
 
 from kafka import KafkaConsumer, KafkaProducer
 
-
 class Producer(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
@@ -47,7 +46,6 @@ class Consumer(multiprocessing.Process):
                     break
 
         consumer.close()
-
 
 def main():
     tasks = [

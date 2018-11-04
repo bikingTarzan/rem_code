@@ -10,7 +10,6 @@ class Node(object):
     def __repr__(self):
         return str(self.data)
 
-
 class Chain(object):
     def __init__(self):
         self.head = None
