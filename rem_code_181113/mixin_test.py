@@ -18,6 +18,7 @@ class Airplane(Vehicle, PlaneMixin):
 
 if __name__ == "__main__":
     airplane = Airplane()
-    airplane.run()
-    airplane.fly()
+    print(Airplane.__mro__)    #(<class '__main__.Airplane'>, <class '__main__.Vehicle'>, <class '__main__.PlaneMixin'>, <class 'object'>)
+    airplane.run()      #I can run
+    airplane.fly()      #I am flying
 
